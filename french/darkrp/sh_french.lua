@@ -5,7 +5,7 @@ local french = {
 	need_admin = "Vous avez besoin des privilèges d'admin pour faire cela %s",
 	need_sadmin = "Vous avez besoin des privilèges d'un superadmin pour faire cela %s",
 	no_privilege = "Vous n'avez pas les bons privilèges pour faire cela",
-	no_jail_pos = "Pas de prison"
+	no_jail_pos = "Pas de prison",
 	invalid_x = "Invalide %s! %s",
 
 	-- F1 menu
