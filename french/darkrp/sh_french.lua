@@ -1267,7 +1267,7 @@ local french = {
 	printer_new_way = "Vous ne pouvez plus faire apparaître une imprimante n'importe où.\nVous devez appeler un vendeur spécialisé.\nMaintenez C > Appeler pour une urgence ou services > Contacter un vendeur d'imprimante",
 	buyprinter_new_way = "Vous pouvez seulement acheter une imprimante avec un service spécial",
 
-	charger_battery = "Batterie chargée à 100%",
+	charger_battery = "Batterie chargée à 100%%",
 	weapon_vape = "Vaporisateur",
 	repair_verb = "Réparer",
 	door_single = "Porte",
