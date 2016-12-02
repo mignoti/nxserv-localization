@@ -122,7 +122,7 @@ local french = {
 	need_to_make_vote = "Vous devez créer un vote pour devenir %s!",
 	team_limit_reached = "Vous ne pouvez pas exercer le métier %s la limite est atteinte",
 	wants_to_be = "%s\nveut être\n%s",
-	has_not_been_made_team = "%s est devenu %s!",
+	has_not_been_made_team = "%s n'est pas devenu %s!",
 	job_has_become = "%s est devenu %s!",
 
 	-- Keys, vehicles and doors
@@ -1316,7 +1316,9 @@ local french = {
 	handcuffs_incuffs = "Menotté",
 	handcuffs_escape_progress = "S'échapper:",
 	handcuffs_escape = "s'échapper",
-	handcuffs_emenynearby = "ennemi proche de vous"
+	handcuffs_emenynearby = "ennemi proche de vous",
+	
+	loading_net = "Le chargement des données...",
 }
 
 DarkRP.addLanguage("fr", french)
