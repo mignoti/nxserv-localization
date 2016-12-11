@@ -1,166 +1,223 @@
 module.exports = {
 	"global": [
-		"General rules",
+		"Règles générales",
 		[
 			[
-				"Main Section",
+				"Section Principale",
 				[
-					"It is forbidden to use software or bugs, which give you advantage over other players (Cheats, BugUse).",
-					"It is forbidden to disturb the operation of server.",
-					"It is forbidden to bypass account bans.",
-					`Players should inform administration about important problems, which may give ability to crash server or get unfair advantage over other players.
-					<br>It is punishable to own and hide such information, as well passing it to other players.`,
-					"Your name should not have words with mixed letters from different languages."
+					"Il est interdit d'utiliser des logiciels ou des bugs, qui te donne un avantage sur les autres joueurs (Cheats,BugUse).",
+					"Il est interdit de perturber le fonctionnement du serveur.",
+					"Il est interdit de d'outrepasser le ban d'un compte.",
+					`Les joueurs doivent informer l'administration sur un problème important, qui peut donner la capacité au serveur de crash ou de donner un désavantage sur les autres joueurs.
+					<br>Il est punissable de posséder et de cacher de telles informations, ainsi que de la transmettre à d'autres joueurs.`,
+					"Ton nom ne doit pas avoir des mots avec différentes lettres de différentes langues."
 				]
 			],
 			[
-				"Chat Rules",
+				"Règles du chat",
 				[
-					"It is not recommended to insult other players.",
-					"Various senseless resentful statements (\"dis server is shite\", \"everything is clear with you\", \"such an admins here...\" and such) will only lead to your ban.",
-					"Discrimination based on gender is forbidden.",
-					"Sexual harassment is forbidden.",
-					"It is forbidden to advertise servers, communities, Steam groups in any form.",
-					"It is forbidden to repeat same messages in short period of time.",
-					"It is forbidden to send messages in Global (Cross-Server) Chat, which are useless outside of current server.",
-					"You may use Global Chat to contact administration only in critical cases (someone is trying to crash the server or using cheats).",
-					"Don't use voice chat to make loud noises, squeaking and other unpleasant to hear sounds."
+					"Il n'est pas recommandé d'insulter d'autres joueurs.",
+					"Diverses affirmations ressenties et insensées (\"ce serveur est nul\", \"tout est clair avec vous\", \"quel admin est ici...\" et autres) va seulement vous mener vers un ban.",
+					"Les discriminations basées sur le sexe d'une personne sont interdites..",
+					"Le harcèlement sexuel est interdit.",
+					"Il est interdit de faire de la publicité pour des serveurs, des communautés, des groupes steam sous toutes les formes.",
+					"Il est interdit de répéter le même message dans un court laps de temps.",
+					"Il est interdit d'envoyer un message en Publique (inter-serveur) chat, qui sont inutiles en dehors de ce serveur.",
+					"Tu devras utiliser le chat global pour contacter un administrateur uniquement dans les cas critiques (quelqu'un essaie de faire crash le serveur ou utilise un cheat).",
+					"N'utilise pas le chat vocal pour faire des sons forts, des grincements et d'autres choses déplaisantes à écouter."
 				]
 			],
 			[
-				"Communication with Administration",
+				"Communication avec l'administration",
 				[
-					"Be polite and patient while talking with administration.",
-					"When calling for an administrator, you MUST indicate the problem and name of the offending player.",
-					"Don't tell admins that they'll get their status dismissed, you have no authority there.",
-					"Don't add admins in steam or any other meanings of internet messaging. Use group forum.",
-					"Administrators help exclusively at their own will. They aren't obliged to respond."
+					"Soyez polis et patient tout en parlant avec un administrateur.",
+					"Quand tu appelles un administrateur, tu dois indiquer le problème et le nom du joueur offensant.",
+					"Ne dites pas aux administrateurs qu'ils sont dégradés, vous n'avez aucun pouvoir.",
+					"N'ajoutez pas les admins sur Steam ou d'autres moyens pour communiquer sur internet. Utilisez le forum.",
+					"Les administrateurs aident exclusivement à leur propre gré. Ils ne sont pas obligés de répondre."
 				]
 			]
 		]
 	],
 
 	"darkrp": [
-		"DarkRP Rules",
+		"Règles DarkRP",
 		[
 			[
-				"Main Section",
+				"Section principale",
 				[
-					`Your roleplay name should be realistic (no to Cat Meow, Crab Man), it shouldn't contain redundant punctuation and should follow general rules of word capitalization.`,
-					`<p>You should forget everything about your killer and death circumstances after you die. (New Life Rule, NLR).</p>
-						<p>You're forgetting your killer forever, that is: if you find your body — it's not your body, it belongs to another roleplay person who's not here anymore.</p>
-						<p>There's no period of time when you can't visit place of your death, but you can't just go there RIGHT AFTER you respawn, you need to get information from proper source.</p>
-						<p>For example, some citizen on the street tells you about crime in district, where you were killed. You obtained this information in roleplay process, so you can go there with no doubts. But still, you don't remember who killed you and how.</p>
-						<p><a href="#nlr-cp">Note</a> for law enforcement.</p>`,
-					`It is forbidden to use suicide, reconnect, job change to evade RP situations, such as prosecution by the police, robbery, becoming a hostage, hunger and others.`,
-					`Your mission is not to defeat everyone, don't kill every person you see on your way. Every murder should follow with an adequate reason. (Random DeathMatch, RDM)`,
-					`Any job may have weapons for self-protection, unless banned by law.`,
-					`Jobs Mobster and Mob Boss are "invisible" - your character sees them as usual citizen (meaning, you can't just check mobster for weapons, just because he's mobster).<br>
-						Any other information seen on the screen is seen by your character too.`,
-					`Don't switch jobs in short period of time to get items, weapons and whatever else (Job Abuse).`,
-					`Don't do anything stupid that no sane person would normally do, say:
+					`Votre nom roleplay doit être réaliste (et non Cat Meow, L'Homme Crabe), il ne devra pas contenir de ponctuation et devra suivre les règles générales de capitalisation des mots.`,
+					`<p>Tu devras tout oublier sur ton tueur et les circonstances de ta mort after être mort. (New Life Rule, NLR). </p>
+						<p>Tu oublies ton tueur pour toujours, c'est-à-dire: si tu trouves ton corps - ce n'est pas ton corps, il appartient à une autre personne roleplay qui n'est plus ici.</p>
+						<p>Il n'y a pas de période de temps où tu ne peux pas visiter ton lieux de mort, mais tu ne pas peux pas y aller JUSTE APRÈS avoir réapparu, tu as besoin d'avoir des informations provenant de sources appropriées.</p>
+						<p>Par exemple, des citoyens dans la rue vous parle d'un crime dans un quartier, la où tu as été tué. Tu as obtenu cette information dans le processus du roleplay, donc tu peux y aller sans doutes. Mais toujours, tu ne te rappelles pas qui t'as tué et comment.</p>
+						<p><a href="#nlr-cp">Note</a> pour l'application de la loi.</p>`,
+					`Il est interdit d'utiliser le suicide, se reconnecter, changer de métier pour s'évader d'une situation RP, tel que les poursuites par la police, les braquages, devenir un otage, la faim ou autre.`,
+					`Votre mission n'est pas de vaincre tout le monde, ne tuez pas toutes les personnes que vous voyez sur votre chemin. Tout meurtre devra suivre avec une raison adéquate. (Random DeathMatch, RDM)`,
+					`Tout métier peut avoir une arme pour se défendre, sauf celles interdites par les lois.`,
+					`Les chefs de gangs sont "invisibles" - votre personnage ressemble à un citoyen normal (ce qui signifie, vous ne pouvez pas juste fouiller un chef de gang pour des armes, juste parce qu'il est chef).<br>
+						Toutes les autres informations affichées sur l'écran sont aussi vues par votre personnage.`,
+					`Ne changez pas de métier dans un court laps de temps pour avoir des objets, des armes ou d'autres choses (abuser des métiers).`,
+					`Ne faites pas quelque chose de stupide qu'un personne normale ne devrait pas faire, dire:
 						<ul>
-							<li>Spawn 1,000,000 text screens saying "kill zone".
-							<li>Ask cop to kill you, just because you're hungry.
-							<li>Jump in fire with courage, when exit is unreachable.
-							<li>Stand in front of moving car.
+							<li>Faire apparaître 1 000 000 affiches qui disent "zone de kill".
+							<li>Demander a un policier de vous tuer juste car vous avez faim.
+							<li>Sauter dans le feu avec courage, là où la sortie est inaccessible.
+							<li>Rester devant une voiture en mouvement.
 						</ul>`,
-					`Every demote vote (premium only) should have an appropriate, truthful reason in accordance with rules, without insults. You are not allowed to initiate demote votes if there's no rule breaking.`,
-					`Vote wisely, don't randomly press "yes" or "no" in votes. If you're unsure - press "not voting".`,
-					`It is strictly forbidden to exchange in-game money to real money or their equivalents.`,
+					`Tout vote de renvoie (Premium seulement) doit avoir une appropriée et véridique raison en accord avec les règles, sans insultes. Vous n'êtes pas autorisés à initier des votes de t'envoies s'il n'y a aucunes règles qui ne sont pas respectées.`,
+					`Votez sagement, ne votez pas aléatoirement en appuyant sur "F5" et "F6" dans les votes. Si vous n'êtes pas sûr - appuyez sur "ne pas voter".`,
+					`Il est strictement interdit d'échange de l'argent dans le jeu contre de l'argent réel ou ses équivalents.`,
+				]
+			],
+			[
+				"Règles du chat",
+				[
+					"Il n'est pas recommandé d'insulter d'autres joueurs.",
+					"Diverses affirmations ressenties et insensées (\"ce serveur est nul\", \"tout est clair avec vous\", \"quel admin est ici...\" et autres) va seulement vous mener vers un ban.",
+					"Les discriminations basées sur le sexe d'une personne sont interdites..",
+					"Le harcèlement sexuel est interdit.",
+					"Il est interdit de faire de la publicité pour des serveurs, des communautés, des groupes steam sous toutes les formes.",
+					"Il est interdit de répéter le même message dans un court laps de temps.",
+					"Il est interdit d'envoyer un message en Publique (inter-serveur) chat, qui sont inutiles en dehors de ce serveur.",
+					"Tu devras utiliser le chat global pour contacter un administrateur uniquement dans les cas critiques (quelqu'un essaie de faire crash le serveur ou utilise un cheat).",
+					"N'utilise pas le chat vocal pour faire des sons forts, des grincements et d'autres choses déplaisantes à écouter."
+				]
+			],
+			[
+				"Communication avec l'administration",
+				[
+					"Soyez polis et patient tout en parlant avec un administrateur.",
+					"Quand tu appelles un administrateur, tu dois indiquer le problème et le nom du joueur offensant.",
+					"Ne dites pas aux administrateurs qu'ils sont dégradés, vous n'avez aucun pouvoir.",
+					"N'ajoutez pas les admins sur Steam ou d'autres moyens pour communiquer sur internet. Utilisez le forum.",
+					"Les administrateurs aident exclusivement à leur propre gré. Ils ne sont pas obligés de répondre."
+				]
+			]
+		]
+	],
+
+	"darkrp": [
+		"Règles DarkRP",
+		[
+			[
+				"Section principale",
+				[
+					`Votre nom roleplay doit être réaliste (et non Cat Meow, L'Homme Crabe), il ne devra pas contenir de ponctuation et devra suivre les règles générales de capitalisation des mots.`,
+					`<p>Tu devras tout oublier sur ton tueur et les circonstances de ta mort after être mort. (New Life Rule, NLR). </p>
+						<p>Tu oublies ton tueur pour toujours, c'est-à-dire: si tu trouves ton corps - ce n'est pas ton corps, il appartient à une autre personne roleplay qui n'est plus ici.</p>
+						<p>Il n'y a pas de période de temps où tu ne peux pas visiter ton lieux de mort, mais tu ne pas peux pas y aller JUSTE APRÈS avoir réapparu, tu as besoin d'avoir des informations provenant de sources appropriées.</p>
+						<p>Par exemple, des citoyens dans la rue vous parle d'un crime dans un quartier, la où tu as été tué. Tu as obtenu cette information dans le processus du roleplay, donc tu peux y aller sans doutes. Mais toujours, tu ne te rappelles pas qui t'as tué et comment.</p>
+						<p><a href="#nlr-cp">Note</a> pour l'application de la loi.</p>`,
+					`Il est interdit d'utiliser le suicide, se reconnecter, changer de métier pour s'évader d'une situation RP, tel que les poursuites par la police, les braquages, devenir un otage, la faim ou autre.`,
+					`Votre mission n'est pas de vaincre tout le monde, ne tuez pas toutes les personnes que vous voyez sur votre chemin. Tout meurtre devra suivre avec une raison adéquate. (Random DeathMatch, RDM)`,
+					`Tout métier peut avoir une arme pour se défendre, sauf celles interdites par les lois.`,
+					`Les chefs de gangs sont "invisibles" - votre personnage ressemble à un citoyen normal (ce qui signifie, vous ne pouvez pas juste fouiller un chef de gang pour des armes, juste parce qu'il est chef).<br>
+						Toutes les autres informations affichées sur l'écran sont aussi vues par votre personnage.`,
+					`Ne changez pas de métier dans un court laps de temps pour avoir des objets, des armes ou d'autres choses (abuser des métiers).`,
+					`Ne faites pas quelque chose de stupide qu'un personne normale ne devrait pas faire, dire:
+						<ul>
+							<li>Faire apparaître 1 000 000 affiches qui disent "zone de kill".
+							<li>Demander a un policier de vous tuer juste car vous avez faim.
+							<li>Sauter dans le feu avec courage, là où la sortie est inaccessible.
+							<li>Rester devant une voiture en mouvement.
+						</ul>`,
+					`Tout vote de renvoie (Premium seulement) doit avoir une appropriée et véridique raison en accord avec les règles, sans insultes. Vous n'êtes pas autorisés à initier des votes de t'envoies s'il n'y a aucunes règles qui ne sont pas respectées.`,
+					`Votez sagement, ne votez pas aléatoirement en appuyant sur "F5" et "F6" dans les votes. Si vous n'êtes pas sûr - appuyez sur "ne pas voter".`,
+					`Il est strictement interdit d'échange de l'argent dans le jeu contre de l'argent réel ou ses équivalents.`,
 				]
 			],
 			[
 				"Chat Rules",
 				[
-					`Don't send RP information in OOC chat (MetaGaming).<br>
-						You aren't allowed to use information obtained from OOC (Out of Character) chat.`,
-					`Don't use OOC to communicate with individual person.<br>
-						To chat with someone privately use PM tab in Chat.`,
-					`It is forbidden to commit sexually explicit RP actions.`,
-					`It is forbidden to send messages in /advert, which aren't RP advertisements.`,
-					`Don't use GROUP voice chat if your age is less than 14.`,
-					`Mobile phone is a part of RP, don't use it to contact administrators for help.`,
-					`Don't threat other players with bans. You are not a moderator.`,
+					`N'envoyez pas d'informations roleplay dans le chat OOC (MetaGaming).<br>
+						Vous n'êtes pas autorisé à utiliser des informations obtenues dans le chat OOC (Out of Character).`,
+					`N'utilisez pas le OOC pour communiquer avec une personne en particulier.<br>
+						Pour discuter avec quelqu'un en privé utilisez le PM tab dans le chat.`,
+					`Il est interdit de commettre des actions RolePlay sexuellement explicites.`,
+					`Il est interdit d'envoyer un message en /advert, qui n'est pas une publicité RP.`,
+					`N'utilisez pas le chat vocal si vous avez moins de 14ans.`,
+					`Le téléphone est une partie du RP, ne l'utilisez pas pour contacter un administrateur pour avoir de l'aide.`,
+					`Ne menacez pas les autres joueurs avec les bans. Vous n'êtes pas un modérateur.`,
 				]
 			],
 			[
-				"Law Enforcement Rules",
+				"Règles d'application de la loi",
 				[
-					`Police Officers aren't allowed to arrest players without adequate reason (Random Arrest).`,
-					`Use taser and handcuffs only against disturbers.`,
-					`Every wanted and curfew should follow with coherent reason. Reasons such as "lol", "CHECK", "ccccccc" are invalid.`,
+					`Les officiers de police ne sont pas autorisés à arrêter quelqu'un sans raison adéquate (Random Arrest).`,
+					`Utilisez le taser et les menottes uniquement contre les perturbateurs.`,
+					`Tout les mandats et les couvres-feu doivent être suivies par une raison cohérente. Les raisons tel que "lol", "fouille", "ccccccc" sont invalides.`,
 					//`Арест должен производиться только через кнопку "арестовать" в наручниках (а не ведением нарушителя в наручниках пешком до ПУ и удержания там).`,
-					`Police is allowed to build barriers, checkpoints, speed bumps, block roads and buildings. Any blocking barrier contraption should have a crackable entrance.`,
-					`Search for weapons requires no warrant (but adequate reason is required).<br>
-						You CAN search in houses for no reason.`,
-					`<span id="nlr-cp">It is forbidden to respond to 911-request, which is issued by cop or mayor near location of your recent death (NLR).<br>
-						It is NOT forbidden to respond to 911-requests issued by any other jobs from any location.</span>`,
-					`Corrupt cop can't actively counteract against law enforcement. For example, corrupt cop may "not notice" some of crimes or "accidentally" forget to lock door in the PD; but he can not attack other policemen.`,
-					`Mayor isn't allowed to make laws which break server rules.`,
-					`Beating of prisoners is governed by Mayor or Chief of Police.`,
+					`La police est autorisée à construire des barrières, des points de contrôle, des dos-d'ânes, bloquer des rues et des bâtiments. Toutes les barrières qui bloquent quelque chose doivent avoir un entrée crackable.`,
+					`Les fouilles pour trouver des armes n'exige pas de mandat (mais une raison adéquate est requise).<br>
+						Vous POUVEZ fouiller les maisons sans raison.`,
+					`<span id="nlr-cp">Il est interdit de répondre à des appels du 911, qui sont fait pas le maire ou les policiers près de votre endroit de votre mort récente (NLR).<br>
+						Il n'est PAS interdit de répondre à un appel du 911 délivré par un autre métier de n'importe quel lieu.</span>`,
+					`Les policiers corrompus ne peuvent pas contrecarrer activement l'application des lois. Par exemple, les policiers corrompus peuvent "ne pas notifier" certains crimes ou "accidentellement" oublier de fermer la porte de la prison; mais il ne peut pas attaquer un autre policer.`,
+					`Le maire n'est pas autorisé à faire des lois qui ne respectent pas les règles du serveur.`,
+					`La torture des prisonniers est régi par le maire ou le chef de la police.`,
 				]
 			],
 			[
-				"Gang Rules",
+				"Règles des gangs",
 				[
-					`Mobster-players aren't in the same team. They can be against each other.`,
-					`Gang is only valid, if it has been created using gang system.`,
+					`Les chefs de gangs ne sont pas dans la même équipe. Ils peuvent être l'un contre l'autre..`,
+					`Les gangs sont valides, si il a été créé à partir du système de gang.`,
 				]
 			],
 			[
-				"Traders & Medics Rules",
+				"Règles des commerçants & des médecins",
 				[
-					`Any businessman may not service player, who inflicted them a damage, insulted them, disturbs peace or wanted by police.<br>
-						If there's no sufficient reasons to deny a trade, businessman should commit it.`,
-					`Gun Dealers, Medics, Traders aren't allowed to use their abilities in criminal purposes or participate in criminal activity.`,
-					`Any businessman should profit from their sales.`,
+					`N'importe quel homme d'affaire ne peut pas être au service d'un joueur, qui leur inflige des dégâts, les insultes, perturber la paix ou les recherchés par la police.<br>
+						S'il n'y a pas de raison suffisante pour décliner un échange, l'homme devrait le commettre.`,
+					`Les vendeurs d'armes, les médecins, les commerçants ne sont pas autorisés à utiliser leurs capacités à des fins criminelles ou de participer à des activités criminelles.`,
+					`Tout les hommes d'affaires devraient faire des profits sur leurs ventes.`,
 				]
 			],
 			[
-				"Hitman Rules",
+				"Règles des tueurs à gage",
 				[
-					`Hit requests should only be made through hit system (press E on hitman or gang member). Hit requests made in any other form are not valid.`,
-					`Any hit request should follow with adequate reason. Hit without reason is RDM.`,
-					`Client is responsible in case of Hit-RDM, not mercenary.`,
+					`Les demandes d'exécution doivent uniquement être créés à partir du système de tueur à gage (appuyez sur E sur un tueur à gage ou un chef de gang). Les demandes d'exécution faites sous d'autres formes ne sont pas valides.`,
+					`Toutes les demandes d'exécution devront suivre avec une raison adéquate. Exécuter sans raison est du RandomDeathMatch (RDM).`,
+					`Le client est responsable en cas d'exécution aléatoire, pas en mercenaire.`,
 				]
 			],
 			[
-				"Build Rules",
+				"Règles de construction",
 				[
-					`It is forbidden to spawn temporary props to reach inacessible locations (PropClimb).`,
-					`It is forbidden to kill with props (PropKill).`,
-					`It is forbidden to fly with force of physgun (PropSurf).`,
-					`It is forbidden to spawn too many props in one place and/or in short period of time (PropSpam).`,
-					`It is forbidden to push items or players with use of props (PropPush).`,
-					`Your buildings should be real: they should be lower than skybox, have support (like, a real support, not one cylinder with lift), and it should not change its colors rapidly.`,
-					`It is foribdden to block public entrances.<br>
-						If this entrance follows to corridor, where you own all doors, then you're allowed to block it.`,
-					`Any placement should have an entrance, which is publicly accessible, or crackable with lockpick, KeyPad or button.`,
-					`Any entrance which is made by mapper should be publicly accessible, or crackable with lockpick, KeyPad or button.`,
-					`Items, hidden behind/under/in props, should be accessible with lockpick, KeyPad or button.`,
-					`You're allowed to use no more than TWO layers of doors (usual doors are also taken into account).<br>
-						If this door is more than two props, then there should be easily visible KeyPad near door, which opens whole entrance at one moment.`,
-					`Buttons/keypads should be located near objects under their control, they should be noticeable.`,
-					`Entrances should be capable of holding two players and be in full size, meaing that one prop should be size of standing player (64 units), so tunnels which require crouching, or corridors which require ducking/jumping/detouring aren't allowed.`,
-					`It is forbidden to use, create and remove Fading Doors during battles.`,
-					`Firing chambers should be of size no less than half of standard plate (metal_plate1, 1x1 PHX) in height and width.`,
-					`Doors, cameras, bridges, buttons and other objects should be clearly visible.`,
-					`It is forbidden to use props which look like walls, but act like they're nocollide and shoot-through, and vice versa.`,
-					`It is forbidden to use props which are transparent only from one side.`,
-					`It is forbidden to place blocking structures on territories you don't own without consent of its owner.`,
-					`You may declare neutral territory as your own and build your house on it, if it's not territory of public use (road, parking).`,
-					`It is forbidden to spawn valuable items and buildings in places, which aren't accessible by usual means of travel (without parkour).<br>
-						Exception: house roofs bellow 4 stores. You must build an accessible public ladder or lift to that roof. While there's no way to access it, you are not allowed to place valuable objects and buildings on the roof.`,
-					`If lift is required to reach your structure, then control of this lift should be available without cracking. It is forbidden to limit use of this lift. Lift should work stable. Meaning:
+					`Il est interdit de faire apparaître temporairement un objet pour atteindre une position inaccessible (PropClimb).`,
+					`Il est interdit de tuer avec un objet (PropKill).`,
+					`Il est interdit de voler avec la force du physgun (PropSurf).`,
+					`Il est interdit de faire apparaître pleins d'objets en un endroit et/ou dans une courte période de temps (PropSpam).`,
+					`Il est interdit de pousser des objets ou des joueurs en utilisant des props (PropPush).`,
+					`Vos constructions doivent être réalistes: elles doivent être plus bas que la skybox, avoir un support (comme, un vrai support, et non un cylindre avec un ascenseur), et ne devra pas changer de couleur rapidement.`,
+					`Il est interdit de bloquer une entrée publique.<br>
+						Si l'entrée suivi d'un couloir, où les portes vous appartiennent, vous êtes autorisé à la bloquer.`,
+					`Toute construction devra posséder une entrée, qui est publiquement accessible, ou crackable avec un pied de biche, un keypad ou un bouton.`,
+					`Toute entrée qui est faite par un mappeur devra être publiquement accessible, ou crackable avec un pied de biche, un keypad ou un bouton.`,
+					`Les objets, cachés derrière/dessous/dessus un props, devra être accessible grâce à un pied de biche, un Keypad ou un bouton.`,
+					`Vous n'êtes pas autorisé à utiliser plus de deux couches de portes (les portes usuels sont aussi prise en compte).<br>
+						Si cette porte est de plus de deux props, il devra y avoir un keypad facilement visible près de la porte, qui ouvre toute l'entrée au même moment.`,
+					`Les boutons/keypads doivent être proches de l'objet auquel ils contrôlent, ils devront être perceptibles.`,
+					`Les entrées devront être capable de tenir deux joueur et être en taille entière, se qui signifie qu'il doit faire la taille d'un joueur qui se tient debout (64 unités), donc les tunnels qui demandent à être accroupis, ou les couloirs qui demandent des esquives/des sauts/des deviations ne sont pas autorisées.`,
+					`Il est interdit d'utiliser, créer et supprimer des fading doors pendant une bataille.`,
+					`Les chambres de tirs doivent mesurer moins de la moitié d'une plaque standard (metal_plate1, 1x1 PHX) en hauteur et en largeur.`,
+					`Les portes, les caméras, les ponts, les boutons et d'autres objets doivent être clairement visibles.`,
+					`Il est interdit d'utiliser un props qui ressemblent à un mur, mais qui agissent comme un mur sans collisions et tirer à travers et vice versa.`,
+					`Il est interdit d'utiliser un props qui est transparent que d'un seul côté.`,
+					`Il est interdit de placer des structures gênantes sur des territoires qui ne vous appartiennent pas sans le consentement du propriétaire.`,
+					`Vous devriez déclarer un territoire neutre comme le votre et construire une maison dessus, si vous n'êtes pas dans un territoire public (route, parking).`,
+					`Il est interdit de faire apparaître des objets précieux et des bâtiments dans des endroits, qui ne sont accessibles par les moyens de transports usuels (sans parcours).<br>
+						xception: le toit d'un maison en dessous de quatre magasins. Vous devez construire une échelle accessible publiquement ou un ascenseur jusqu'à ce tout. Quand il n'y a pas de moyen pour y accéder, vous n'êtes pas autorisé à placer des objets précieux et des bâtiments sur ce toit.`,
+					`Si un ascenseur est requis pour accéder à votre structure, puis contrôler cet ascenseur devra être disponible sans crackage. Il est interdit de limiter l'accès de cet ascenseur. L'ascenseur devra marcher de manière stable. Ce qui veut dire:
 					<ul>
-						<li>Your elevator should be built by special tool DarkRP > Elevator.
-						<li>There should be no doors/walls on entrance and exit.
+						<li>Votre ascenseur devra être construit avec l'outil spécial DarkRP -> Elevator
+						<li> Il ne devra y avoir aucune porte ou mur a l'entrée ou à la sortie.
 					</ul>`,
-					`It is forbidden to make disappearing floors, ladders, lifts, platforms.`,
-					`It is forbidden to spawn jails for players/items using Duplicator on players/items, or put props on players/items with physgun.`,
-					`It is forbidden to use Wiremod in search of players or valuable items outside your own territory.`,
-					`You are not allowed to build during fights or any other forms of confrontation.`,
+					`Il est interdit de faire disparaître des sols, des échelles, des ascenseurs et des plateformes`,
+					`Il est interdit de faire apparaître des prisons pour les joueurs/objets en utilisant le duplicateur sur des joueurs/objets, ou mettre des props sur des joueurs/objets avec le physgun.`,
+					`Il est interdit d'utiliser le wiremod pour rechercher des joueurs ou des objets précieux à l'extérieur de votre territoire.`,
+					`Vous n'êtes pas autorisé à construire durant un combat ou d'autres formes de confrontation.`,
 				]
 			],
 		],
