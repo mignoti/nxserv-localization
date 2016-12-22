@@ -172,7 +172,7 @@ Gameplay:
 		slots = "Emplacements :",
 		store = "Magasin :",
 		ui_back = "< Retour",
-		game_money = "Argent dans le jeu: ",
+		game_money = "Monnaie du jeu : ",
 		darkrp_premium_desc = [[Le "Premium" vous donne des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.
 Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de la criminalité.
 
