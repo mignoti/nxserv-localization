@@ -141,21 +141,21 @@ Gameplay:
 		cars = "Voitures",
 		hats = "Apparence",
 		bought = "Acheté",
-		buying_period = "Valable pour %s",
+		buying_period = "Disponible pour %s",
 		expires_in = "Expire dans ",
-		expired = "Expiré!",
-		discount = "%s, %d%% de rabais!",
-		open_in_browser = "Pour obtenir les informations requises, copie ce lien et l'ouvrir dans votre navigateur préféré",
+		expired = "Expiré !",
+		discount = "%s, %d%% de réduction !",
+		open_in_browser = "Pour obtenir les informations requises, copiez ce lien et ouvrez le dans votre navigateur préféré",
 		copy_link = "Copier le lien",
-		nofunds_ask = "Votre compte ne dispose pas de suffisamment de fonds pour acheter ce produit.\nSouhaitez recharger votre solde?",
-		nofunds = "L'insuffisance des fonds",
+		nofunds_ask = "Votre compte ne dispose pas de suffisamment de fonds pour acheter ce produit.\nSouhaitez recharger votre solde ?",
+		nofunds = "Fonds insuffisants",
 		yes = "Oui",
 		no = "Non",
-		sending_request = "Demande d'envoi...",
-		item_bought = "Succès!",
+		sending_request = "Envoi de la demande...",
+		item_bought = "Succès !",
 		error = "Erreur",
-		button_topup = "Comment recharger?",
-		scroll = "Molette de la souris – rotation",
+		button_topup = "Comment recharger ?",
+		scroll = "Molette de la souris – faire défiler",
 		already_bought = "Vous possédez déjà cet élément",
 		few_seconds = "quelques secondes",
 		seconds = " secondes",
@@ -163,39 +163,39 @@ Gameplay:
 		hours = " heures",
 		days = " jours",
 		you_bought = "Vous avez acheté ",
-		you_already_own = "Vous possédez déjà cet élément!",
+		you_already_own = "Vous possédez déjà cet élément !",
 		no_item = "Il y a une erreur dans le traitement de votre demande.",
-		thanks = "Vos fonds ont été ajoutés à votre compte, merci!",
+		thanks = "Vos fonds ont été ajoutés à votre compte, merci !",
 		buy_for = "Acheter pour ",
-		premium_cars = "Premium Voitures",
+		premium_cars = "Voitures Premium",
 		regular_cars = "Voitures ordinaires",
-		slots = "Fentes:",
-		store = "Store:",
+		slots = "Emplacements :",
+		store = "Magasin :",
 		ui_back = "< Retour",
-		game_money = "En Jeu De L'Argent: ",
-		darkrp_premium_desc = [["Premium" vous donne des avantages supplémentaires dans le jeu sur notre DarkRP serveurs.
-Avec "Premium", vous gagnez de l'argent quickier et de mieux survivre dans la ville est pleine de la criminalité.
+		game_money = "Monnaie du jeu : ",
+		darkrp_premium_desc = [[Le "Premium" vous donne des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.
+Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de la criminalité.
 
-Personnage:
+Personnage :
 * Le temps de respawn réduit à 5 secondes
-* La faim taux est 2 fois plus lent
-* Max armure augmente jusqu'à 200%
-* Vous obtenez l'accès à l'élégant personnalisable modèles sur l'emploi comme Bartender, City Mayor (Breen), Fishman (Eli), Mob Boss, Medic (Kleiner), Gun Dealer (Father Grigory), Security Guard (Barney), Taxi Driver (Barney)
-* Premium icône dans le tableau de bord vous rend plus perceptible
+* La barre de faim descend 2 fois moins vite
+* La capacité maximum de l'armure est augmentée à 200%
+* Vous obtenez l'accès à d'élégants modèles, sur les métiers comme Barman, Maire (Breen), Pêcheur (Eli), Gangster, Médecin (Kleiner), Vendeur d'armes (Father Grigory), Garde de sécurité (Barney), Chauffeur de taxi (Barney)
+* L'icôe Premium dans le TAB vous rend plus perceptible
 
-Voitures:
-* Les voitures consomment 50% moins de carburant
+Voitures :
+* Les voitures consomment 50% de carburant en moins
 * 10% de rabais lors de l'achat de voitures
-* Voiture de location devient disponible
-* Cosmétiques tuning devient disponible (spoilers, pare-chocs, jupes, hottes, etc.)
+* La location de voitures est désormais disponible
+* Le tuning sur les véhicules est désormais disponible (spoilers, pare-chocs, jupes, hottes, etc.)
 
-Gameplay:
-* Vous pouvez lancer rétrograder votes
-* Emploi limites ne s'appliquent pas à vous, vous pouvez obtenir n'importe quel travail à n'importe quel moment
-* En tant que maire, lors du démarrage d'une loterie, vous bénéficiez de 10% de la loterie de la piscine
-* L'argent des Imprimantes et de la Pêche donner 50% plus de revenus]],
-		richbitch_desc = "Only for DarkRP. Number of purchases is unlimited.",
-		richbitch_title = "In-Game Currency %s",
+Gameplay :
+* Vous pouvez lancer des votes de licenciement
+* La limite de métiers n'est pas appliquée à vous, vous pouvez jouer n'importe quel métier à n'importe quel moment
+* En tant que maire, lors du démarrage d'une loterie, vous recevez 10% des gains
+* Les imprimantes à argent et la pêche donnent 50% de revenus en plus]],
+		richbitch_desc = "Seulement pour le DarkRP. Le nombre d'achat est illimité.",
+		richbitch_title = "Actuellement connectés %s",
 		premium_car_desc_1 = [[Exclusive Premium-class vehicle, permanently added to your vehicle list.
 	%d passenger seat.]],
 		premium_car_desc_2 = [[Exclusive Premium-class vehicle, permanently added to your vehicle list.
