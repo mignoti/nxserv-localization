@@ -70,7 +70,7 @@ local french = {
 	wanted_by_police_print = "%s a émis un avis de recherche sur %s, raison: %s",
 	wanted_expired = "%s n'est plus recherché.",
 	wanted_revoked = "%s n'est plus recherché par la police.\nRévoqué par: %s",
-	cant_arrest_other_cp = "Vous ne pouvez pas arrêter d'autre CPs !",
+	cant_arrest_other_cp = "Vous ne pouvez pas arrêter d'autres policiers !",
 	must_be_wanted_for_arrest = "La personne doit être recherchée pour pouvoir l'arrêter.",
 	cant_arrest_no_jail_pos = "Vous ne pouvez pas arrêter les gens car il n'y a pas de prison !",
 	cant_arrest_spawning_players = "Vous ne pouvez pas arrêter les personnes qui viennent d'apparaître.",
@@ -591,7 +591,7 @@ local french = {
 	Le bélier peut aussi démolir les props.
 	Maintenez la touche C pour effectuer certaines tâches.]],
 	cp_msg_pos = "Allez au poste de police pour devenir agent de police.",
-	cp_msg_wanted = "Vous ne pouvez pas devenir agent de la police lorsqur vous êtes recherché.",
+	cp_msg_wanted = "Vous ne pouvez pas devenir agent de la police lorsque vous êtes recherché.",
 	chief = "Chef de la police",
 	chief_desc = [[Le chef de la police dirige ses hommes.
 		Coordonne ses hommes pour faire respecter les lois de la ville.
