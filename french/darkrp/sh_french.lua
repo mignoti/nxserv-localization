@@ -488,7 +488,10 @@ local french = {
 	F4entities = "Objets",
 	F4ammo = "Munitions",
 	F4vehicles = "Véhicules",
-	F4donate = "Don",
+	F4donate = "",
+	F4premium = "Premium-offres",
+	F4cars = "Voitures",
+	F4hats = "Vêtements",
 	F4attachments = "Extras d'arme",
 
 	-- Tab 1
@@ -1317,6 +1320,27 @@ local french = {
 	handcuffs_escape_progress = "S'échapper:",
 	handcuffs_escape = "s'échapper",
 	handcuffs_emenynearby = "ennemi proche de vous",
+
+	-- Entity
+	elevator_button_up = "Call elevator up",
+	elevator_button_down = "Call elevator down",
+	elevator_button_level = "Floor %d",
+	elevator_display_level = "Floor:",
+	-- TOOL:
+	["undone_elevator"] = "Undone elevator",
+	["tool.nx_elevator.name"] = "Elevator",
+	["tool.nx_elevator.desc"] = "Easy multilevel elevator tool",
+	["tool.nx_elevator.material"] = "Chamber material:",
+	["tool.nx_elevator.model"] = "Model:",
+	["tool.nx_elevator.dupehint"] = "In order to use Duplicator tool with elevator you must create elevator on prop",
+	["tool.nx_elevator.1_left"] = "Click anywhere to create new elevator or click on existing one to edit",
+	["tool.nx_elevator.2_left"] = "Add floor",
+	["tool.nx_elevator.2_right"] = "Remove floor",
+	["tool.nx_elevator.2_reload"] = "Apply",
+	["sboxlimit_elevator_floors"] = "Maximum floors limit reached",
+	["sboxlimit_elevator_near_level"] = "You need to be on desired floor level and stay close to the chamber",
+	["sboxlimit_elevator_blocked"] = "Something is blocking elevator chamber",
+	["sboxlimit_elevator_cant_see"] = "New elevator floor must be in line of your sight",
 
 	loading_net = "Le chargement des données...",
 }
