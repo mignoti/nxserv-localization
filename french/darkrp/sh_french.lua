@@ -781,7 +781,7 @@ local french = {
 	car = "Voiture",
 	car_kick = "Éjecter",
 	previous_owner = "Précédent propriétaire: %s",
-	taxi_popup = "Taxi €%d/km",
+	taxi_popup = "Taxi %d/km€",
 	car_retrieval = "Ranger le véhicule",
 
 	-- Laws
@@ -977,10 +977,10 @@ local french = {
 
 	-- Taxi
 	taxi_nomoney = "Vous n'avez plus assez d'argent pour payer le chauffeur !",
-	taxi_paid = "€%d payés pour avoir fait une course",
-	taxi_payment = "€%d reçus pour avoir fait",
+	taxi_paid = "%d€ payés pour avoir fait une course",
+	taxi_payment = "%d€ reçus pour avoir fait",
 	taxi_setprice_fail = "Vous ne pouvez pas changer le prix du taxi par kilomètre lorsque vous conduisez !",
-	taxi_setprice_ok = "Le prix de €%d par kilomètre a été fixé",
+	taxi_setprice_ok = "Le prix de %d€ par kilomètre a été fixé",
 	taxi_nocar = "Vous devez posséder un taxi !",
 	call_taxi_fail = "Malheureusement il n'y a pas de chauffeur de taxi actuellement.",
 	call_taxi_alert = "appelle un taxi !",
@@ -1322,27 +1322,27 @@ local french = {
 	handcuffs_emenynearby = "ennemi proche de vous",
 
 	-- Entity
-	elevator_button_up = "Call elevator up",
-	elevator_button_down = "Call elevator down",
-	elevator_button_level = "Floor %d",
-	elevator_display_level = "Floor:",
+	elevator_button_up = "Appeler l'ascenseur",
+	elevator_button_down = "Appeler l'ascenseur",
+	elevator_button_level = "Étage %d",
+	elevator_display_level = "Sol:",
 	-- TOOL:
-	["undone_elevator"] = "Undone elevator",
-	["tool.nx_elevator.name"] = "Elevator",
-	["tool.nx_elevator.desc"] = "Easy multilevel elevator tool",
-	["tool.nx_elevator.material"] = "Chamber material:",
-	["tool.nx_elevator.model"] = "Model:",
-	["tool.nx_elevator.dupehint"] = "In order to use Duplicator tool with elevator you must create elevator on prop",
-	["tool.nx_elevator.1_left"] = "Click anywhere to create new elevator or click on existing one to edit",
-	["tool.nx_elevator.2_left"] = "Add floor",
-	["tool.nx_elevator.2_right"] = "Remove floor",
-	["tool.nx_elevator.2_reload"] = "Apply",
-	["sboxlimit_elevator_floors"] = "Maximum floors limit reached",
-	["sboxlimit_elevator_near_level"] = "You need to be on desired floor level and stay close to the chamber",
-	["sboxlimit_elevator_blocked"] = "Something is blocking elevator chamber",
-	["sboxlimit_elevator_cant_see"] = "New elevator floor must be in line of your sight",
+	["undone_elevator"] = "Annuler l'ascenseur",
+	["tool.nx_elevator.name"] = "Ascenseur",
+	["tool.nx_elevator.desc"] = "Utiliser l'outil de création d'ascenseur",
+	["tool.nx_elevator.material"] = "Matériaux de l'ascenseur:",
+	["tool.nx_elevator.model"] = "Modèle:",
+	["tool.nx_elevator.dupehint"] = "Pour utiliser l'outil duplicateur avec l'ascenseur vous devez créer un ascenseur",
+	["tool.nx_elevator.1_left"] = "Cliquez n'importe où pour créer un ascenseur ou cliquez sur un ascenseur existant pour le modifier",
+	["tool.nx_elevator.2_left"] = "Ajouter un étage",
+	["tool.nx_elevator.2_right"] = "Retirer l'étage",
+	["tool.nx_elevator.2_reload"] = "Appliquer",
+	["sboxlimit_elevator_floors"] = "La limite maximum d'étages a été atteinte",
+	["sboxlimit_elevator_near_level"] = "Vous devez être sur l'étage désiré et rester prêt de la chambre d'ascenseur",
+	["sboxlimit_elevator_blocked"] = "Quelque chose bloque la chambre d'ascenseur",
+	["sboxlimit_elevator_cant_see"] = "Le sol de votre nouvel ascenseur doit être au milieu de votre viseur",
 
-	loading_net = "Le chargement des données...",
+	loading_net = "Chargement des données...",
 }
 
 DarkRP.addLanguage("fr", french)
