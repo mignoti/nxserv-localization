@@ -47,11 +47,6 @@ module.exports = {
 				"Section principale",
 				[
 					`Votre nom roleplay doit être réaliste (et non Cat Meow, L'Homme Crabe), il ne devra pas contenir de ponctuation et devra suivre les règles générales de capitalisation des mots.`,
-					`<p>Tu devras tout oublier sur ton tueur et les circonstances de ta mort after être mort. (New Life Rule, NLR). </p>
-						<p>Tu oublies ton tueur pour toujours, c'est-à-dire: si tu trouves ton corps - ce n'est pas ton corps, il appartient à une autre personne roleplay qui n'est plus ici.</p>
-						<p>Il n'y a pas de période de temps où tu ne peux pas visiter ton lieux de mort, mais tu ne pas peux pas y aller JUSTE APRÈS avoir réapparu, tu as besoin d'avoir des informations provenant de sources appropriées.</p>
-						<p>Par exemple, des citoyens dans la rue vous parle d'un crime dans un quartier, la où tu as été tué. Tu as obtenu cette information dans le processus du roleplay, donc tu peux y aller sans doutes. Mais toujours, tu ne te rappelles pas qui t'as tué et comment.</p>
-						<p><a href="#nlr-cp">Note</a> pour l'application de la loi.</p>`,
 					`Il est interdit d'utiliser le suicide, se reconnecter, changer de métier pour s'évader d'une situation RP, tel que les poursuites par la police, les braquages, devenir un otage, la faim ou autre.`,
 					`Votre mission n'est pas de vaincre tout le monde, ne tuez pas toutes les personnes que vous voyez sur votre chemin. Tout meurtre devra suivre avec une raison adéquate. (Random DeathMatch, RDM)`,
 					`Tout métier peut avoir une arme pour se défendre, sauf celles interdites par les lois.`,
@@ -72,63 +67,6 @@ module.exports = {
 			],
 			[
 				"Règles du chat",
-				[
-					"Il n'est pas recommandé d'insulter d'autres joueurs.",
-					"Diverses affirmations ressenties et insensées (\"ce serveur est nul\", \"tout est clair avec vous\", \"quel admin est ici...\" et autres) va seulement vous mener vers un ban.",
-					"Les discriminations basées sur le sexe d'une personne sont interdites..",
-					"Le harcèlement sexuel est interdit.",
-					"Il est interdit de faire de la publicité pour des serveurs, des communautés, des groupes steam sous toutes les formes.",
-					"Il est interdit de répéter le même message dans un court laps de temps.",
-					"Il est interdit d'envoyer un message en Publique (inter-serveur) chat, qui sont inutiles en dehors de ce serveur.",
-					"Tu devras utiliser le chat global pour contacter un administrateur uniquement dans les cas critiques (quelqu'un essaie de faire crash le serveur ou utilise un cheat).",
-					"N'utilise pas le chat vocal pour faire des sons forts, des grincements et d'autres choses déplaisantes à écouter."
-				]
-			],
-			[
-				"Communication avec l'administration",
-				[
-					"Soyez polis et patient tout en parlant avec un administrateur.",
-					"Quand tu appelles un administrateur, tu dois indiquer le problème et le nom du joueur offensant.",
-					"Ne dites pas aux administrateurs qu'ils sont dégradés, vous n'avez aucun pouvoir.",
-					"N'ajoutez pas les admins sur Steam ou d'autres moyens pour communiquer sur internet. Utilisez le forum.",
-					"Les administrateurs aident exclusivement à leur propre gré. Ils ne sont pas obligés de répondre."
-				]
-			]
-		]
-	],
-
-	"darkrp": [
-		"Règles DarkRP",
-		[
-			[
-				"Section principale",
-				[
-					`Votre nom roleplay doit être réaliste (et non Cat Meow, L'Homme Crabe), il ne devra pas contenir de ponctuation et devra suivre les règles générales de capitalisation des mots.`,
-					`<p>Tu devras tout oublier sur ton tueur et les circonstances de ta mort after être mort. (New Life Rule, NLR). </p>
-						<p>Tu oublies ton tueur pour toujours, c'est-à-dire: si tu trouves ton corps - ce n'est pas ton corps, il appartient à une autre personne roleplay qui n'est plus ici.</p>
-						<p>Il n'y a pas de période de temps où tu ne peux pas visiter ton lieux de mort, mais tu ne pas peux pas y aller JUSTE APRÈS avoir réapparu, tu as besoin d'avoir des informations provenant de sources appropriées.</p>
-						<p>Par exemple, des citoyens dans la rue vous parle d'un crime dans un quartier, la où tu as été tué. Tu as obtenu cette information dans le processus du roleplay, donc tu peux y aller sans doutes. Mais toujours, tu ne te rappelles pas qui t'as tué et comment.</p>
-						<p><a href="#nlr-cp">Note</a> pour l'application de la loi.</p>`,
-					`Il est interdit d'utiliser le suicide, se reconnecter, changer de métier pour s'évader d'une situation RP, tel que les poursuites par la police, les braquages, devenir un otage, la faim ou autre.`,
-					`Votre mission n'est pas de vaincre tout le monde, ne tuez pas toutes les personnes que vous voyez sur votre chemin. Tout meurtre devra suivre avec une raison adéquate. (Random DeathMatch, RDM)`,
-					`Tout métier peut avoir une arme pour se défendre, sauf celles interdites par les lois.`,
-					`Les chefs de gangs sont "invisibles" - votre personnage ressemble à un citoyen normal (ce qui signifie, vous ne pouvez pas juste fouiller un chef de gang pour des armes, juste parce qu'il est chef).<br>
-						Toutes les autres informations affichées sur l'écran sont aussi vues par votre personnage.`,
-					`Ne changez pas de métier dans un court laps de temps pour avoir des objets, des armes ou d'autres choses (abuser des métiers).`,
-					`Ne faites pas quelque chose de stupide qu'un personne normale ne devrait pas faire, dire:
-						<ul>
-							<li>Faire apparaître 1 000 000 affiches qui disent "zone de kill".
-							<li>Demander a un policier de vous tuer juste car vous avez faim.
-							<li>Sauter dans le feu avec courage, là où la sortie est inaccessible.
-							<li>Rester devant une voiture en mouvement.
-						</ul>`,
-					`Tout vote de renvoie (Premium seulement) doit avoir une appropriée et véridique raison en accord avec les règles, sans insultes. Vous n'êtes pas autorisés à initier des votes de t'envoies s'il n'y a aucunes règles qui ne sont pas respectées.`,
-					`Votez sagement, ne votez pas aléatoirement en appuyant sur "F5" et "F6" dans les votes. Si vous n'êtes pas sûr - appuyez sur "ne pas voter".`,
-					`Il est strictement interdit d'échange de l'argent dans le jeu contre de l'argent réel ou ses équivalents.`,
-				]
-			],
-			[
-				"Chat Rules",
 				[
 					`N'envoyez pas d'informations roleplay dans le chat OOC (MetaGaming).<br>
 						Vous n'êtes pas autorisé à utiliser des informations obtenues dans le chat OOC (Out of Character).`,
@@ -151,8 +89,6 @@ module.exports = {
 					`La police est autorisée à construire des barrières, des points de contrôle, des dos-d'ânes, bloquer des rues et des bâtiments. Toutes les barrières qui bloquent quelque chose doivent avoir un entrée crackable.`,
 					`Les fouilles pour trouver des armes n'exige pas de mandat (mais une raison adéquate est requise).<br>
 						Vous POUVEZ fouiller les maisons sans raison.`,
-					`<span id="nlr-cp">Il est interdit de répondre à des appels du 911, qui sont fait pas le maire ou les policiers près de votre endroit de votre mort récente (NLR).<br>
-						Il n'est PAS interdit de répondre à un appel du 911 délivré par un autre métier de n'importe quel lieu.</span>`,
 					`Les policiers corrompus ne peuvent pas contrecarrer activement l'application des lois. Par exemple, les policiers corrompus peuvent "ne pas notifier" certains crimes ou "accidentellement" oublier de fermer la porte de la prison; mais il ne peut pas attaquer un autre policer.`,
 					`Le maire n'est pas autorisé à faire des lois qui ne respectent pas les règles du serveur.`,
 					`La torture des prisonniers est régi par le maire ou le chef de la police.`,
