@@ -126,13 +126,13 @@ local french = {
 	job_has_become = "%s est devenu %s !",
 
 	-- Keys, vehicles and doors
-	keys_allowed_to_coown = "Vous n'êtes pas autorisé à être co-propriétaire\n(Appuyez sur la touche de Recharge avec les clés ou appuyez sur F2 pour être co-propriétaire)\n",
+	keys_allowed_to_coown = "Vous n'êtes pas autorisé à être co-propriétaire\n(Appuyez sur F2 pour être co-propriétaire)\n",
 	keys_other_allowed = "Autre personne possédant les clés:",
-	keys_allow_ownership = "(Appuyez sur la touche de Recharge avec les clés ou appuyez sur F2 pour activer la possession)",
-	keys_disallow_ownership = "(Appuyez sur la touche de Recharge avec les clés ou appuyez sur F2 pour désactiver la possession)",
+	keys_allow_ownership = "(Appuyez sur F2 pour activer la possession)",
+	keys_disallow_ownership = "(Appuyez sur F2 pour désactiver la possession)",
 	keys_owned_by = "Propriétaire:",
-	keys_unowned = "Pas de propriétaire\n(Appuyez sur la touche de Recharge avec les clés ou appuyez sur F2 pour s'approprier cela)",
-	keys_everyone = "(Appuyez sur la touche de Recharge avec les clés ou appuyez sur F2 pour donner les clés à tout le monde)",
+	keys_unowned = "Pas de propriétaire\n(Appuyez sur F2 pour s'approprier cela)",
+	keys_everyone = "(Appuyez sur F2 pour donner les clés à tout le monde)",
 	door_unown_arrested = "Vous ne pouvez pas acheter/vendre des choses lorsque vous êtes arrêté !",
 	door_unownable = "Cette porte ne peut pas être atribuée/désatribuée !",
 	door_sold = "Vous avez vendu cela pour %s",
@@ -1119,7 +1119,7 @@ local french = {
 
 	-- Permaupgrades
 	up_flashlight = "Lampe torche",
-	up_flashlight_desc = "Appuyer sur F (pulsion 100), pour utiliser la lampe torche.",
+	up_flashlight_desc = "Appuyer sur F (impulse 100), pour utiliser la lampe torche.",
 	up_door_upgrade = "Portes renforcées",
 	up_door_upgrade_desc = "Toutes les portes que vous possédez accèdent à un écran tactile de verrouillage/déverrouillage.",
 	up_parkour = "Parcours",
@@ -1186,7 +1186,7 @@ local french = {
 
 	quota = "Quota: %d%% des joueurs connectés",
 	no_quota = "Pas de quota",
-	quota_notice = "Les limitations des métiers est basée sur le nombre de joueurs. Plus de joueurs - plus de places pour les métiers.",
+	quota_notice = "Les limitations des métiers est basée sur le nombre de joueurs. Plus de joueurs - plus de places pour les métiers.\nLes joueurs avec abonnement Premium peuvent contourner les limites.",
 
 	enemy = "Enemmi",
 	neutral = "Neutre",
@@ -1343,6 +1343,14 @@ local french = {
 	["sboxlimit_elevator_cant_see"] = "Le sol de votre nouvel ascenseur doit être au milieu de votre viseur",
 
 	loading_net = "Chargement des données...",
+
+	weekday_1 = "Lundi",
+	weekday_2 = "Mardi",
+	weekday_3 = "Mercredi",
+	weekday_4 = "Jeudi",
+	weekday_5 = "Vendredi",
+	weekday_6 = "Samedi",
+	weekday_7 = "Dimanche",
 }
 
 DarkRP.addLanguage("fr", french)
