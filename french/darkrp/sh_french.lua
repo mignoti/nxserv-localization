@@ -1,12 +1,12 @@
 local french = {
-	ldscr_greet = "Vous avez choisi, ou avez été choisi, pour jouer à notre meilleur serveur français",
+	ldscr_greet = "Vous avez choisi, ou avez été choisi, pour jouer sur notre meilleur serveur français",
 
 	-- Admin things
-	need_admin = "Vous avez besoin des privilèges d'admin pour faire cela %s",
-	need_sadmin = "Vous avez besoin des privilèges d'un superadmin pour faire cela %s",
+	need_admin = "Vous avez devez être admin pour faire cela %s",
+	need_sadmin = "Vous avez devez être superadmin pour faire cela %s",
 	no_privilege = "Vous n'avez pas les bons privilèges pour faire cela",
 	no_jail_pos = "Pas de prison",
-	invalid_x = "Invalide %s! %s",
+	invalid_x = "%s invalide! %s",
 
 	-- F1 menu
 	f1ChatCommandTitle = "Commandes de chat",
@@ -192,7 +192,7 @@ local french = {
 	contents = "Contenu: ",
 	amount = "Montant: ",
 
-	picking_lock = "Cramponnage",
+	picking_lock = "Crochettage",
 
 	cannot_pocket_x = "Vous ne pouvez pas mettre ceci dans votre poche !",
 	object_too_heavy = "Cet objet est trop lourd.",
@@ -208,7 +208,7 @@ local french = {
 
 	keypad_checker_shoot_keypad = "Tirez sur un keypad pour savoir ce qu'il contrôle.",
 	keypad_checker_shoot_entity = "Tirez sur une entité pour voir quels sont les keypads qui y sont connectés",
-	keypad_checker_click_to_clear = "Clique droit pour nettoyer.",
+	keypad_checker_click_to_clear = "Clique droit pour remettre à zéro.",
 	keypad_checker_entering_right_pass = "Saisie du bon mot de passe",
 	keypad_checker_entering_wrong_pass = "Saisie du mauvais mot de passe",
 	keypad_checker_after_right_pass = "après avoir entré le bon mot de passe",
@@ -386,7 +386,7 @@ local french = {
 
 	x_made_you_a_y = "%s vous a mis en %s !",
 
-	cmd_cant_be_run_server_console = "Cette commande ne peut pas être exécutée qu'à partir de la console du serveur.",
+	cmd_cant_be_run_server_console = "Cette commande ne peut être exécutée qu'à partir de la console du serveur.",
 
 	-- The lottery
 	lottery_started = "Il y a une loterie ! Participez-y pour %s%d ?", -- backwards compatibility
@@ -399,14 +399,14 @@ local french = {
 	-- Animations
 	custom_animation = "Animation customisée",
 	bow = "Arc",
-	dance = "Dance 1",
+	dance = "Danse 1",
 	follow_me = "Suivez moi !",
 	laugh = "Rire",
 	lion_pose = "Pose du lion",
 	nonverbal_no = "Dire non avec le doigt",
 	thumbs_up = "Pouce en l'air",
 	wave = "Vague",
-	dance2 = "Dance 2",
+	dance2 = "Danse 2",
 	cheer = "Acclamation",
 	salute = "Saluer",
 	robot = "Robot",
@@ -529,7 +529,7 @@ local french = {
 	law_removed = "Loi supprimée.",
 	law_reset = "Réinitialisation des lois.",
 	law_too_short = "La loi est trop courte.",
-	laws_full = "Le tableau de loi est rempli.",
+	laws_full = "Il y a trop de lois.",
 	default_law_change_denied = "Vous n'êtes pas autorisé à modifier les lois par défaut.",
 
 	-- Second tab
@@ -578,12 +578,12 @@ local french = {
 
 	citizen = "Citoyen",
 	citizen_desc = [[Le citoyen a un status social normal. Vous n'avez pas de rôle spécifique dans la vie. Vous pouvez faire le métier que vous souhaitez et faire votre propre entreprise.]],
-	hobo = "Sans abris",
-	hobo_desc = [[Le sans abris est la personne la moins importante dans la société. Tout le monde rigole en vous voyant.
+	hobo = "Sans abri",
+	hobo_desc = [[Le sans abri est la personne la moins importante dans la société. Tout le monde se moque de vous.
 	Vous n'avez pas de maison, vous demandez même de l'argent et de la nourriture aux passants.
 	Construisez votre maison avec des briques et des cartons, pour vous sauver du froid.]],
 	fishman = "Pêcheur",
-	fishman_desc = [[Utilisez vos compétances pour pêcher des objets et ensuite les revendre. Acheter des appâts et améliorer votre canne pour obtenir plus de butin.
+	fishman_desc = [[Utilisez vos compétences pour pêcher des objets et ensuite les revendre. Acheter des appâts et améliorer votre canne pour obtenir plus de butin.
 
 	Appuyez sur la touche B pour ouvrir le menu du pêcheur.]],
 	cp = "Agent de police",
@@ -597,7 +597,7 @@ local french = {
 	cp_msg_wanted = "Vous ne pouvez pas devenir agent de la police lorsque vous êtes recherché.",
 	chief = "Chef de la police",
 	chief_desc = [[Le chef de la police dirige ses hommes.
-		Coordonne ses hommes pour faire respecter les lois de la ville.
+		Coordonnez vos hommes pour faire respecter les lois de la ville.
 		Utilisez votre matraque pour montrer votre autorité et votre importance dans la police.
 	Le bélier peut démolir n'importe quelle porte, avec le mandat correspondant.
 	Le bélier peut aussi démolir les props.
@@ -636,17 +636,17 @@ local french = {
 	security = "La sécurité",
 	security_desc = [[Devenez un agent de la sécurité d'une boutique locale ou de la banque. Vous pouvez aussi être garde du corps.
 	Vous devez protéger les établissements des intimidateurs et des voleurs.
-	If situation escalates: call the police.
-	You're given stunstick by default, so don't risk and thread lightly.]],
+	Si la situation s'aggrave: appelez la police.
+	On ne vous donne qu'une matraque par défaut, donc ne prenez pas de risques inutiles.]],
 	taxidriver = "Chauffeur de taxi",
 	taxidriver_desc = [[Conduisez des personnes où ils veulent et recevez de l'argent.]],
 	fireman = "Pompier",
-	fireman_desc = [[Métier responsable et dangeureux. Sans toi notre ville serait brûlée en cendres.
+	fireman_desc = [[Métier responsable et dangeureux. Sans vous notre ville serait brûlée en cendres.
 	Vous recevez de l'argent lorsque vous éteignez des feux.]],
 
 	extinguish_fire = "Vous avez reçu %s pour avoir éteint un feu !",
 	extinguish_prop = "Vous avez reçu %s pour avoir éteint un props !",
-	extinguish_player = "Vous avez reçu %s pour avoir éteint un humain !",
+	extinguish_player = "Vous avez reçu %s pour avoir éteint un joueur !",
 	extinguish_vehicle = "Vous avez reçu %s pour avoir éteint un véhicule !",
 
 	-- Weapons
@@ -658,17 +658,17 @@ local french = {
 	nx_fuel = "Bidon d'essence",
 	fuel_ammo = "Carburant",
 	fas2_ifak = "Trousse de santé",
-	stunstick = "Bâton d'étourdissement",
+	stunstick = "Matraque",
 	fas2_dv2 = "Couteau de combat DV2",
 	fas2_machete = "Machette",
 	fas2_ots33 = "OTs-33 \"Pernach\"",
 	weapon_rpg = "RPH anti-véhicules",
-	fas2_m67 = "Grenade M67 ",
-	molotov = "Cocktail Molotov ",
+	fas2_m67 = "Grenade M67",
+	molotov = "Cocktail Molotov",
 
 	-- Ammo
 	ammo = "Munitions",
-	RPG_Round = "Balle de RPG",
+	RPG_Round = "Roquette de RPG",
 	bandages = "Bandages",
 	hemostats = "Hemostats",
 	quikclots = "Quikclots",
@@ -785,7 +785,7 @@ local french = {
 	car_retrieval = "Ranger le véhicule",
 
 	-- Laws
-	laws_title = "Les lois du pays",
+	laws_title = "Les lois de la ville",
 	laws_speedlimit = "Limite de vitesse des véhicules: ",
 	laws_kmh = " km/h",
 	laws_legal = "Légal",
@@ -810,7 +810,7 @@ local french = {
 	cc_upgrades = "Améliorations",
 	cc_points = "Crédits du gouvernement: ",
 	cc_save = "<Enter> - modifications effectuées",
-	cc_lawlength = "La longueur des lois devrait être compris entre 3 et 1000 caractères",
+	cc_lawlength = "La longueur des lois doivent être comprises entre 3 et 1000 caractères",
 	cc_resetlaws = "Remettre les lois par défaut",
 	cc_clearlaws = "Supprimer toutes les lois",
 	cc_addlaw = "Loi ajoutée",
@@ -1035,7 +1035,7 @@ local french = {
 	dna_destroyed = "L'ADN a été détruit par de récents tests",
 	dna_start = "Commencer l'analyse ADN du tueur",
 	dna_decoy = "L'ADN du tueur a été détérioré",
-	dna_timeout = "Le corps va disparaître dans %d secondes.",
+	dna_timeout = "Disparition du corps dans %d secondes.",
 	dna_call = "Appeler la police",
 	dna_call_done = "La police a été appelée",
 	dna_cr = "Ici se trouve le corps de %s !",
@@ -1160,10 +1160,10 @@ local french = {
 	rpname_surname = "Nom de famille",
 
 	premium = "Premium",
-	connecting = "Connecter",
-	score_ingame = " joueurs en jeu",
+	connecting = "Connexion",
+	score_ingame = " joueurs",
 	score_and = " et ",
-	score_connecting = " rejoint",
+	score_connecting = " rejoignent",
 
 	elevator_title = "ASCENSEUR TURBO",
 	elevator_hall = "Entrée",
@@ -1282,9 +1282,9 @@ local french = {
 	fertilizer = "Engrais",
 	drug_weed = "Cannabis",
 
-	stat_weed1 = "Élevé",
-	stat_weed2 = "Vraiment élevé",
-	stat_weed3 = "LE PLUS ÉLEVÉ",
+	stat_weed1 = "Drogué",
+	stat_weed2 = "Défoncé",
+	stat_weed3 = "Irrécupérable",
 
 	itemshop = "Distributeur automatique",
 	empty = "VIDE",
@@ -1327,7 +1327,7 @@ local french = {
 	elevator_button_level = "Étage %d",
 	elevator_display_level = "Sol:",
 	-- TOOL:
-	["undone_elevator"] = "Annuler l'ascenseur",
+	["undone_elevator"] = "Ascenseur retiré",
 	["tool.nx_elevator.name"] = "Ascenseur",
 	["tool.nx_elevator.desc"] = "Utiliser l'outil de création d'ascenseur",
 	["tool.nx_elevator.material"] = "Matériaux de l'ascenseur:",
