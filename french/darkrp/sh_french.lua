@@ -2,8 +2,8 @@ local french = {
 	ldscr_greet = "Vous avez choisi, ou avez été choisi, pour jouer sur notre meilleur serveur français",
 
 	-- Admin things
-	need_admin = "Vous avez devez être admin pour faire cela %s",
-	need_sadmin = "Vous avez devez être superadmin pour faire cela %s",
+	need_admin = "Vous devez être admin pour faire cela %s",
+	need_sadmin = "Vous devez être superadmin pour faire cela %s",
 	no_privilege = "Vous n'avez pas les bons privilèges pour faire cela",
 	no_jail_pos = "Pas de prison",
 	invalid_x = "%s invalide! %s",
