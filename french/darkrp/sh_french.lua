@@ -93,7 +93,7 @@ local french = {
 	curfew = "Le maire a lancé un couvre feu: ",
 
 	-- Players
-	health = "Vie: %s",
+	health = "Santé: %s",
 	job = "Métier: %s",
 	salary = "Salaire: %s%s",
 	wallet = "Portefeuille: %s%s",
@@ -501,7 +501,7 @@ local french = {
 	go_to_sleep = "Dormir/se reveiller",
 	drop_weapon = "Jeter l'arme actuelle",
 	customize_weapon = "Personnaliser cette arme",
-	buy_health = "Achat de vie(%s)",
+	buy_health = "Achat de santé (%s)",
 	request_gunlicense = "Demander une license d'arme",
 	demote_player_menu = "Rétrograder un joueur",
 
@@ -696,8 +696,8 @@ local french = {
 	playxradio = "Radio PlayX",
 	playxtv = "Télévision PlayX",
 	playxbillboard = "PlayX Billboard",
-	charger_medkit = "Rechargeur de vie",
-	charger_suit = "Rechargeur d'armure",
+	charger_medkit = "Distributeur de santé",
+	charger_suit = "Distributeur d'armure",
 	radar = "Radar",
 
 	-- Drugs
@@ -841,8 +841,8 @@ local french = {
 	gang_halo = "Radar du gang",
 	door_upgrade = "Portes renforcées",
 
-	charger_medkit_desc = "Les rechargeurs de vie sont apparus au poste de police.",
-	charger_suit_desc = "Les rechargeurs d'armure sont apparus au poste de police.",
+	charger_medkit_desc = "Les distributeurs de santé sont apparus au poste de police.",
+	charger_suit_desc = "Les distributeurs d'armure sont apparus au poste de police.",
 	door_upgrade_desc = "Les portes du gouverment reçoivent la fonction 'verrouillage/déverrouillage'.",
 	police_halo_desc = "Les coéquipiers ont un contour vert à travers les murs. Si un coéquipier parle à la radio, son profil devient bleu. Si un coéquipier est blessé, son contour devient rouge pendant un moment.",
 	microwave_desc = "Le micro-ondes est apparu au poste de police.",
@@ -1203,7 +1203,7 @@ local french = {
 	turret_attacked = "La tourelle se fait attaquer !",
 	turret_lockpicker = "Lockpicker !",
 	turret_owner = "Propriétaire: ",
-	turret_state = "Vie: ",
+	turret_state = "Santé: ",
 
 	-- Player stats
 	stat_stamina_low = "Épuisé",
@@ -1245,7 +1245,7 @@ local french = {
 	medcenter_mode_desease = "Analyse simple",
 	medcenter_skel_health = "Santé des os",
 	medcenter_skel_scanning = "Scanning",
-	medcenter_health = "Vie",
+	medcenter_health = "Santé",
 	medcenter_ready = "Prêt",
 
 	police_is_near = "La police est proche",
