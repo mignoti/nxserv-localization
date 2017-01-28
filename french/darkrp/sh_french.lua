@@ -629,7 +629,6 @@ local french = {
 	Ouvrez votre commerce et vendez des objets à vos clients.]],
 	bar = "Barman",
 	bar_desc = [[Le barman sert de la nourriture et des boissons à vos clients.
-	Vous pouvez aussi avoir un micro-ondes.
 	Ouvrez un bar et servez vos clients. Engagez un agent de sécurité pour faire dégager les personnes ivres.]],
 	carmaster = "Mécanicien automobile",
 	carmaster_desc = [[Réparez et ravitaillez les véhicules en essence.]],
@@ -819,6 +818,7 @@ local french = {
 	cc_invitecop = "Inviter dans la police",
 	cc_kickcop = "Éjecter de la police",
 	cc_assignchief = "Promouvoir un chef de police",
+	cc_helicopter = "Achat hélicoptère",
 
 	-- City Management SV
 	cc_limitschanged = "Le maire a modifié les lois.",
@@ -830,6 +830,8 @@ local french = {
 	cc_upgradedalready = "Amélioration déjà achetée",
 	cc_upgraded = "Vous avez acheté l'amélioration '%s'",
 	cc_mayor_upgraded = "%s a acheté l'amélioration '%s'",
+	cc_helicopter_spawned = "Hélicoptère livré à l'héliport",
+	cc_helicopter_obstructed = "L'héliport est obstrué!",
 
 	lockdown_reason = "Raison: %s",
 	door_cp = "Forces de l'ordre",
@@ -1351,6 +1353,19 @@ local french = {
 	weekday_5 = "Vendredi",
 	weekday_6 = "Samedi",
 	weekday_7 = "Dimanche",
+
+	-- teamkill
+	teamkill_kill = "%s killed a teammate %s.",
+	teamkill_kill_warn = "WARNING: You killed a teammate! You will be banned from Police if you kill %d more teammates!",
+	teamkill_hurt = "%s attacked a teammate %s.",
+	teamkill_hurt_warn = "WARNING: You attacked a teammate %s!",
+
+	-- lives
+	lives_died = "You have %d lives left. %d minutes until restoring one.",
+	lives_died_warn = "If you have no life left, you will not be able to use weapons.",
+	lives_restored = "Restored one life. Lives amount: %d",
+	lives_hud1 = "Lives: %d/2",
+	lives_hud2 = "Restoring in: %s minutes",
 }
 
 DarkRP.addLanguage("fr", french)
