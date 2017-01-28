@@ -173,15 +173,15 @@ Gameplay:
 		store = "Magasin :",
 		ui_back = "< Retour",
 		game_money = "Monnaie du jeu : ",
-		darkrp_premium_desc = [[Le "Premium" vous donne des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.
-Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de la criminalité.
+		darkrp_premium_desc = [[Le "Premium" vous octroie des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.
+Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville surchargée par la criminalité.
 
 Personnage :
 * Le temps de respawn réduit à 5 secondes
 * La barre de faim descend 2 fois moins vite
 * La capacité maximum de l'armure est augmentée à 200%
 * Vous obtenez l'accès à d'élégants modèles, sur les métiers comme Barman, Maire (Breen), Pêcheur (Eli), Gangster, Médecin (Kleiner), Vendeur d'armes (Father Grigory), Garde de sécurité (Barney), Chauffeur de taxi (Barney)
-* L'icôe Premium dans le TAB vous rend plus perceptible
+* L'icône Premium dans le TAB vous rend plus visible
 
 Voitures :
 * Les voitures consomment 50% de carburant en moins
@@ -191,10 +191,10 @@ Voitures :
 
 Gameplay :
 * Vous pouvez lancer des votes de licenciement
-* La limite de métiers n'est pas appliquée à vous, vous pouvez jouer n'importe quel métier à n'importe quel moment
+* La limite de métiers ne s'applique pas pour vous, vous pouvez jouer n'importe quel métier à n'importe quel moment
 * En tant que maire, lors du démarrage d'une loterie, vous recevez 10% des gains
 * Les imprimantes à argent et la pêche donnent 50% de revenus en plus]],
-		richbitch_desc = "Seulement pour le DarkRP. Le nombre d'achat est illimité.",
+		richbitch_desc = "Seulement pour DarkRP. Le nombre d'achat est illimité.",
 		richbitch_title = "Actuellement connectés %s",
 		premium_car_desc_1 = [[Exclusive Premium-class vehicle, permanently added to your vehicle list.
 	%d passenger seat.]],
