@@ -42,24 +42,24 @@ var langs = {
 	},
 	fr: {
 		init: "Chargement en cours...",
-		mounting: "Workshop Addons: Montage",
-		ws_done: "Workshop Addons: Complété",
+		mounting: "Addons du Workshop: Chargement",
+		ws_done: "Addons du Workshop: Terminé",
 		sending_info: "Presque là...",
-		ws_adds: "Workshop Addons: ",
+		ws_adds: "Addons du Workshop: ",
 		checking: "Vérification ",
-		unpacking: "Déballage ",
+		unpacking: "Extraction ",
 		loading: "Téléchargement ",
-		fastdl: "FastDL Files: ",
-		bsp: "Barre de chargement peut rester immobile ou réinitialiser - ne vous inquiétez pas, il est très bien",
+		fastdl: "Fichiers FastDL: ",
+		bsp: "Si la barre de chargement peut paraître immobile ou bloquée, ne vous inquiétez pas, tout va bien",
 		resources: "Chargement des ressources",
 		hints: [
-			"Si \"Workshop Addons\" vérifier va trop long, puis fermez votre GMod et redémarrez Steam.",
-			"Emplois possibles ne sont pas limités par la liste dans le menu F4. Comme citoyen, vous pouvez penser à votre propre profession. Dites, propriétaire du cinéma ou de biens détaillant.",
-			"Ne vous inquiétez pas les pannes de serveur - il se rechargera en peu de temps et vous aurez tous vos articles, votre travail et l'emplacement restauré automatiquement.",
+			"Si la vérification des addons du Workshop est trop longue, fermez Garry's Mod et redémarrez Steam.",
+			"Vous n'êtez pas limités aux jobs dans la liste du menu F4, vous pouvez très bien être propriétaire de cinéma ou revendeur de biens."
+			"Ne vous inquiétez pas en cas de panne de serveur - il se redémarrera en peu de temps et vous aurez tous vos objets, votre emploi et position restaurés automatiquement.",
 			"Assurez-vous de vérifier les règles et guide de jeu. Vous pouvez également lire nos nouvelles - il y a toujours quelque chose d'intéressant au sujet de prochaines mises à jour et plus.",
-			"It is absolutely free to play on NxServ servers, the only thing you need is a licensed copy of Garry's Mod, however you can please yourself with special items in our shop. For some gamemodes like NxRP (former DarkRP) it is possible to purchase a Premium subscription for one month. Premium makes your game pleasant, easy and comfortable.",
-			"We've made lovely accessories for your in-game character, which you can wear on any of our servers. To see whole range of available items, use F4 menu (on DarkRP) or \"Shop\" in the ESC-menu.",
-			//"Savez-vous l'anglais? Aidez-nous à traduire notre serveur vers le français. Visitez https://nxserv.eu/fr",
+			"Il est totalement gratuit de jouer sur les serveurs NxServ, le seul prérequis est une copie licensée de Garry's Mod, cependant vous pouvez toujours vous faire plaisir avec des objets spéciaux dans notre boutique. Pour quelques modes de jeu comme NxRP (anciennement DarkRP) il est possible d'acheter un abonnement Premium d'un mois. Le Premium rend votre expérience plaisante, facile et confortable.",
+			"Nous avons créé d'adorables accessoires pour votre personnage en jeu, que vous pouvez porter sur chacun de nos serveurs. Pour voir la liste complète d'objets, utilisez le menu F4 (sur DarkRP) our \"Shop\" dans le menu Échap.",
+			// "Savez-vous l'anglais? Aidez-nous à traduire notre serveur vers le français. Visitez https://nxserv.eu/fr",
 		]
 	}
 }
