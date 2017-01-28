@@ -818,7 +818,7 @@ local french = {
 	cc_invitecop = "Inviter dans la police",
 	cc_kickcop = "Éjecter de la police",
 	cc_assignchief = "Promouvoir un chef de police",
-	cc_helicopter = "Achat hélicoptère",
+	cc_helicopter = "Acheter un hélicoptère",
 
 	-- City Management SV
 	cc_limitschanged = "Le maire a modifié les lois.",
@@ -1355,17 +1355,17 @@ local french = {
 	weekday_7 = "Dimanche",
 
 	-- teamkill
-	teamkill_kill = "%s killed a teammate %s.",
-	teamkill_kill_warn = "WARNING: You killed a teammate! You will be banned from Police if you kill %d more teammates!",
-	teamkill_hurt = "%s attacked a teammate %s.",
-	teamkill_hurt_warn = "WARNING: You attacked a teammate %s!",
+	teamkill_kill = "%s a tué son collègue %s.",
+	teamkill_kill_warn = "ATTENTION: Vous avez tué un collègue! Vous allez être banni de la police si vous tuez encore %d agents!",
+	teamkill_hurt = "%s a attaqué son collègue %s.",
+	teamkill_hurt_warn = "ATTENTION: Vous avez attaqué %s, un de vos collègues!",
 
 	-- lives
-	lives_died = "You have %d lives left. %d minutes until restoring one.",
-	lives_died_warn = "If you have no life left, you will not be able to use weapons.",
-	lives_restored = "Restored one life. Lives amount: %d",
-	lives_hud1 = "Lives: %d/2",
-	lives_hud2 = "Restoring in: %s minutes",
+	lives_died = "Il vous reste %d vies. Encore %d minutes avant d'en récupérer une autre.",
+	lives_died_warn = "Si il ne vous reste plus de vies, vous ne serez plus en mesure d'utiliser des armes.",
+	lives_restored = "Vous venez de récupérer une vie. Nombre de vies: %d",
+	lives_hud1 = "Vies: %d/2",
+	lives_hud2 = "Récupération dans: %s minutes",
 }
 
 DarkRP.addLanguage("fr", french)
