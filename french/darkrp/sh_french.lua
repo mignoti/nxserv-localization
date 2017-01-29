@@ -2,14 +2,14 @@ local french = {
 	ldscr_greet = "Vous avez choisi, ou avez été choisi, pour jouer sur notre meilleur serveur français",
 
 	-- Admin things
-	need_admin = "Vous devez être admin pour faire cela %s",
-	need_sadmin = "Vous devez être superadmin pour faire cela %s",
-	no_privilege = "Vous n'avez pas les bons privilèges pour faire cela",
-	no_jail_pos = "Pas de prison",
+	need_admin = "Vous devez être administrateur pour faire cela %s !",
+	need_sadmin = "Vous devez être super-administrateur pour faire cela %s !",
+	no_privilege = "Vous n'avez pas les bons privilèges pour faire cela.",
+	no_jail_pos = "Aucune position de prison disponible !",
 	invalid_x = "%s invalide! %s",
 
 	-- F1 menu
-	f1ChatCommandTitle = "Commandes de chat",
+	f1ChatCommandTitle = "Commandes du chat",
 	f1Search = "Recherche...",
 
 	-- Money things:
@@ -30,12 +30,12 @@ local french = {
 	need_money = "Besoin de %s",
 
 	payday_message = "Jour de paie ! Vous recevez %s !",
-	payday_unemployed = "Vous n'avez pas reçu de salaire, car vous êtes au chômage !",
-	payday_missed = "Paie non reçu, car vous êtes en prison !",
+	payday_unemployed = "Vous ne recevez pas de salaire car vous êtes au chômage !",
+	payday_missed = "Vous ne recevez pas de salaire car vous êtes en prison !",
 
-	property_tax = "Taxes de propriété payées, cela vous a coûté %s",
-	property_tax_cant_afford = "Vous ne pouvez payer les taxes de propriété, votre propriété a été saisie !",
-	taxday = "Jour de taxes ! %s%% de vos revenus ont été pris",
+	property_tax = "Vous avez payé vos taxes de propriété ( %s )",
+	property_tax_cant_afford = "Vous ne pouvez pas payer vos taxes de propriété, votre propriété a été saisie !",
+	taxday = "%s%% ont été prélevé sur votre salaire ( Impot sur le revenu )",
 
 	found_cheque = "Vous avez trouvé %s%s d'un chèque à votre nom, de la part de %s.",
 	cheque_details = "Ce chèque est à l'ordre de %s.",
@@ -80,8 +80,8 @@ local french = {
 	actor_doesnt_exist = "La personne n'existe pas.",
 	get_a_warrant = "Obtenir un mandat",
 	give_warrant = "Donner un mandat",
-	make_someone_wanted = "Mettre une recherche sur quelqu'un",
-	remove_wanted_status = "Enlever la recherche",
+	make_someone_wanted = "Lancer une recherche sur quelqu'un",
+	remove_wanted_status = "Arrêter la recherche",
 	already_a_warrant = "Il existe déjà un mandat de perquisition pour cette personne.",
 	already_wanted = "Le suspect est déjà recherché.",
 	not_wanted = "Le suspect n'est pas recherché.",
@@ -118,15 +118,15 @@ local french = {
 	kmh = "%d km/h",
 
 	-- Teams
-	need_to_be_before = "Vous devez d'abord être %s avant de demander d'être %s",
+	need_to_be_before = "Vous devez d'abord être %s avant de devenir %s",
 	need_to_make_vote = "Vous devez créer un vote pour devenir %s !",
-	team_limit_reached = "Vous ne pouvez pas exercer le métier %s la limite est atteinte",
+	team_limit_reached = "Vous ne pouvez pas exercer le métier %s car la limite est atteinte",
 	wants_to_be = "%s\nveut être\n%s",
 	has_not_been_made_team = "%s n'est pas devenu %s !",
 	job_has_become = "%s est devenu %s !",
 
 	-- Keys, vehicles and doors
-	keys_allowed_to_coown = "Vous n'êtes pas autorisé à être co-propriétaire\n(Appuyez sur F2 pour être co-propriétaire)\n",
+	keys_allowed_to_coown = "Vous êtes autorisé à être co-propriétaire\n(Appuyez sur F2 pour être co-propriétaire)\n",
 	keys_other_allowed = "Autre personne possédant les clés:",
 	keys_allow_ownership = "(Appuyez sur F2 pour activer la possession)",
 	keys_disallow_ownership = "(Appuyez sur F2 pour désactiver la possession)",
@@ -137,9 +137,9 @@ local french = {
 	door_unownable = "Cette porte ne peut pas être atribuée/désatribuée !",
 	door_sold = "Vous avez vendu cela pour %s",
 	door_already_owned = "Cette porte appartient déjà à quelqu'un !",
-	door_cannot_afford = "Vous ne pouvez pas offrir cette porte !",
+	door_cannot_afford = "Vous ne pouvez pas acheter cette porte !",
 	door_hobo_unable = "Vous ne pouvez pas acheter de porte, vous êtes un sans abris !",
-	vehicle_cannot_afford = "Vous ne pouvez pas offrir ce véhicule !",
+	vehicle_cannot_afford = "Vous ne pouvez pas acheter ce véhicule !",
 	door_bought = "Vous avez acheté cette porte pour %s%s",
 	vehicle_bought = "Vous avez acheté ce véhicule pour %s%s",
 	door_need_to_own = "Vous devez être propriétaire de cette porte afin de pouvoir %s",
@@ -254,7 +254,7 @@ local french = {
 	perform_your_action = "exécutez votre action",
 	talk_to_your_group = "parlez au groupe",
 
-	channel_set_to_x = "Chaîne réglée sur %s.",
+	channel_set_to_x = "Radio réglée sur le canal %s.",
 
 	-- Notifies
 	disabled = "%s a été désactivé ! %s",
@@ -379,7 +379,7 @@ local french = {
 	you_set_x_name = "Vous avez changé le nom de %s il se nomme maintenant %s",
 	x_set_your_name = "%s a changé votre nom, et vous vous appelez maintenant %s",
 
-	someone_stole_steam_name = "Quelqu'un utilise déjà votre nom Steam pour nom RP, donc nous avons ajouté un '1' après votre nom.", -- Uh oh
+	someone_stole_steam_name = "Quelqu'un utilise déjà votre nom Steam comme nom RP, donc nous avons ajouté un '1' après votre nom.", -- Uh oh
 	already_taken = "Déjà pris.",
 
 	job_doesnt_require_vote_currently = "Ce métier ne nécessite pas de vote.",
